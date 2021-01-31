@@ -30,12 +30,6 @@ public class PalindromoController {
 	private IPalindromoService palindromoService;
 	
 	
-	@GetMapping(value = "/validar")
-	public ResponseEntity<?> validar(){
-		
-		return ResponseEntity.status(HttpStatus.OK).body("Hola");
-	}
-	
 	@GetMapping(value = "/listar")
 	public ResponseEntity<?> listar(){
 		
